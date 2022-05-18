@@ -1,0 +1,11 @@
+CREATE TABLE comics (id integer primary key, name text, quanity integer);
+
+INSERT INTO comics VALUES (1, 'Spider-Man', 8);
+INSERT INTO comics VALUES (2, 'Avengers', 4);
+INSERT INTO comics VALUES (3, 'X-Men', 6);
+INSERT INTO comics VALUES (4, 'Ms Marvel', 2);
+INSERT INTO comics VALUES (5, 'Thunderbolts', 11);
+
+SELECT *
+FROM comics
+ORDER BY quanity;
